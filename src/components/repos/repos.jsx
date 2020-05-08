@@ -58,6 +58,13 @@ const Repos = () => {
           >
             Visit
           </a>
+          <a
+            href={repo.html_url}
+            target="_blanck"
+            className="text-xs ml-2 cursor-pointer text-gray-600 "
+          >
+            Github
+          </a>
           <img
             src={repo.owner.avatar_url}
             className="w-5 h-5 block float-right rounded-full"
