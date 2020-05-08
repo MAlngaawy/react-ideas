@@ -34,7 +34,7 @@ const Repos = () => {
     //   .then(response => response.json())
     //   .then(data => setRepos(data))
     // },2000)
-  });
+  }, []);
 
   // Didn't work Way
   //     useEffect(() =>
